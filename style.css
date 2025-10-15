@@ -1,0 +1,243 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+}
+/* ************************************
+************************ */
+.iphone-display {
+   width: 100%;
+   height: 570px;
+   background-position: center;
+   background-size: cover;
+   object-fit: cover;
+   border-bottom: 12px solid #fff;
+}
+.iphone-display-contant {
+   text-align: center;
+   position: relative;
+   top: 50px;
+}
+.btn {
+   border: none;
+   font-size: 1rem;
+   font-weight: 400;
+   padding: 11px 21px;
+   letter-spacing: -0.374px;
+   border-radius: 980px;
+   cursor: pointer;
+}
+.btn-lg {
+   width: 130.31px;
+   height: 43.6px;
+   background-color: #0071e3;
+   color: #fff;
+}
+.btn-md {
+   width: 72.81px;
+   height: 43.6px;
+   background: transparent;
+   border: 0.8px solid #2997ff;
+   color: #2997ff;
+   margin-left: 13px;
+}
+/* ************************************
+************************ */
+
+/* navbar section  */
+nav {
+   width: 100%;
+   height: 44px;
+   background-color: #161617cc;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: fixed;
+   top: 0;
+}
+nav ul li {
+   display: inline-block;
+   list-style: none;
+   padding: 0 8px;
+   margin: 0 8px;
+}
+nav ul li a {
+   text-decoration: none;
+   color: rgba(255, 255, 255, 0.8);
+   font-size: 0.75rem;
+   font-weight: 400;
+   letter-spacing: -0.12px;
+}
+/* iphone 17 pro section  */
+.iphone-17-pro {
+   background-image: url("./img/iphon17pro.png");
+}
+.iphone-17-pro h1 {
+   color: #fff;
+   font-size: 3rem;
+   padding-top: 2.5rem;
+}
+.iphone-17-pro h2 {
+   color: #fff;
+   font-size: 25px;
+   font-weight: 500;
+   margin-bottom: 1rem;
+}
+/* iphone air section  */
+.iphone-air {
+   background-image: url("./img/iphone air.png");
+}
+.iphone-air h1 {
+   color: #222;
+   font-size: 3rem;
+   margin-bottom: 1rem;
+}
+.iphone-air p {
+   color: #222;
+   font-size: 1.6rem;
+   line-height: 0.4rem;
+   margin-bottom: 1.5rem;
+}
+/* iphone 17 section  */
+.iphone-17 {
+   background-image: url("./img/iphone17.png");
+}
+.iphone-17 h1 {
+   color: #222;
+   font-size: 3rem;
+}
+.iphone-17 h2 {
+   color: #222;
+   font-size: 25px;
+   font-weight: 500;
+   margin-bottom: 1rem;
+}
+/* card section  */
+.card-box {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.card {
+   width: 747.6px;
+   height: 580px;
+   background-color: aqua;
+   margin: 0.4rem;
+}
+.card-bg-img {
+   width: 100%;
+   height: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   object-fit: cover;
+}
+.card-content {
+   text-align: center;
+   position: relative;
+   top: 3rem;
+   letter-spacing: -0.374px;
+}
+.card-content h1 {
+   color: #222;
+   font-size: 2rem;
+   font-weight: 600;
+}
+.card-content p {
+   font-size: 1.25rem;
+   color: #222;
+   line-height: 1.4rem;
+   margin: 0.4rem 0 1.25rem 0;
+}
+.card-btn {
+   border: none;
+   padding: 7px 15px;
+   font-size: 400;
+   font-size: 14px;
+   letter-spacing: -0.224px;
+   text-align: center;
+   border-radius: 980px;
+   cursor: pointer;
+}
+.card-btn-lg {
+   width: 103.85px;
+   height: 35.6px;
+   color: #fff;
+   background-color: #0071e3;
+}
+.card-btn-sm {
+   width: 61.6px;
+   height: 35.6px;
+   color: #0066cc;
+   background: transparent;
+   border: 0.8px solid #0066cc;
+   margin-left: 13px;
+}
+/* footer-section  */
+footer {
+   width: 100%;
+   min-height: 830px;
+   background-color: #f5f5f7;
+}
+.footer-content {
+   width: 920px;
+   margin: auto;
+   padding: 18px 22px;
+}
+.footer-content p {
+   font-size: 12px;
+   color: #0000008f;
+   padding: 4px 0;
+}
+.footer-content p a {
+   color: #0000008f;
+}
+.footer-content .line {
+   border-top: 0.1px solid #ccc;
+   margin: 1.5rem 0;
+}
+.footer-ls {
+   display: flex;
+   justify-content: space-between;
+}
+.footer-ls ul li {
+   list-style: none;
+   line-height: 19px;
+}
+.footer-ls ul li p {
+   color: #000000e0;
+   margin-bottom: 4px;
+}
+.footer-ls ul li a {
+   text-decoration: none;
+   font-size: 12px;
+   color: #0000008f;
+   letter-spacing: -0.48px;
+   font-weight: 400;
+}
+.footer-ls ul li a:hover {
+   text-decoration: underline;
+}
+.more-ways-shop {
+   margin: 1.5rem 0;
+}
+.footer-content .more-ways-shop a {
+   color: #0066cc;
+   font-size: 12px;
+}
+.footer-content .Copyright {
+   font-size: 12px;
+   color: #0000008f;
+   display:flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.footer-content .Copyright a {
+   text-decoration: none;
+   padding: 0 0.25rem;
+   color: #0000008f;
+}
+.footer-content .Copyright a:hover {
+   text-decoration: underline;
+}
